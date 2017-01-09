@@ -39,7 +39,7 @@ h1, h2, h3 {
 
 .navbar-brand {
   font-family: 'Oswald', sans-serif;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .navbar-default .navbar-brand, 
@@ -48,6 +48,17 @@ h1, h2, h3 {
   &:hover {
     color:white;
     opacity: .5;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2 px solid white;
+  &:hover, &:focus {
+    background-color: #FFA17F;
   }
 }
 
